@@ -20,11 +20,11 @@ services:
     expose:
       - 3000
 
-  pgadmin:
-    image: dpage/pgadmin4
-    volumes:
-      - pgadmin:/root/.pgadmin
-    restart: unless-stopped
+  # pgadmin:
+  #   image: dpage/pgadmin4
+  #   volumes:
+  #     - pgadmin:/root/.pgadmin
+  #   restart: unless-stopped
 
 volumes:
   postgres:

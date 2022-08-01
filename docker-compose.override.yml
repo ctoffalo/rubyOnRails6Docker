@@ -16,11 +16,11 @@ services:
     ports:
       - "3000:3000"
 
-  pgadmin:
-    env_file:
-      - ./build/pgadmin/development.env
-    ports:
-      - "8899:80"
+  # pgadmin:
+  #   env_file:
+  #     - ./build/pgadmin/development.env
+  #   ports:
+  #     - "8899:80"
 
 volumes:
   gem_cache:
